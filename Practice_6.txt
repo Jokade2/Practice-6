@@ -1,0 +1,43 @@
+Заание 1:
+def nested_sum(t):
+    summ = 0
+    for i in t:
+        summ += sum(i)
+    return summ
+
+Задание 2:
+def cumsum(t):
+    summ = []
+    k = 0
+    for i in t:
+        k += int(i)
+        summ.append(k)
+    return summ
+
+Задание 3:
+def middle(t):
+    return t[1:-1]
+
+Задание 4:
+def chop(t)
+    t[1:-1]
+
+Задание 5:
+def ls_sorted(t):
+    return t == sorted(t)
+
+Задание 6:
+def is_anagram(word1, word2):
+    return sorted(word1) == sorted(word2)
+
+Задание 7:
+def has_duplicates(s):
+    t = sorted(s)
+    x = ''
+    for i in range(len(t)):
+        if t[i] == t[i - 1]:
+            x = "True"
+            break
+        else:
+            x = "False"
+    return x
